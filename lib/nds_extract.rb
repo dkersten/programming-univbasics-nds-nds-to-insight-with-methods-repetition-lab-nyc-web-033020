@@ -27,7 +27,7 @@ end
 def list_of_directors(source)
   # Write this implementation
   i = 0;
-  directors = {}
+  directors = []
   
   while i < source.length do
     directors.push(source[i][:name])
